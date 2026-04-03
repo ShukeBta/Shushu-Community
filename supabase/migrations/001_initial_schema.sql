@@ -90,7 +90,14 @@ create policy "Order parties can update orders"
 
 -- Messages policies
 create policy "Conversation participants can view messages"
-  on public.messages for select using (auth.uid() = sender_id);
+  on public.messages for select using (
+    auth.uid() = sender_id OR
+    EXISTS (
+      SELECT 1 FROM public.messages m2
+      WHERE m2.conversation_id = messages.conversation_id
+        AND m2.sender_id = auth.uid()
+    )
+  );
 
 create policy "Authenticated users can send messages"
   on public.messages for insert with check (auth.uid() = sender_id);
