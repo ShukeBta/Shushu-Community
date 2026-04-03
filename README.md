@@ -7,15 +7,13 @@
 
 ### 鼠鼠交易平台相关截图
 
-<div style="display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0;">
-
-<img src="https://picui.ogmua.cn/s1/2026/04/03/69cf8268ee89b.webp" width="32%" alt="img1">
-<img src="https://picui.ogmua.cn/s1/2026/04/03/69cf826a2d283.webp" width="32%" alt="img2">
-<img src="https://picui.ogmua.cn/s1/2026/04/03/69cf826a5e112.webp" width="32%" alt="img3">
-<img src="https://picui.ogmua.cn/s1/2026/04/03/69cf826aae529.webp" width="32%" alt="img4">
-<img src="https://picui.ogmua.cn/s1/2026/04/03/69cf826acdc35.webp" width="32%" alt="img5">
-<img src="https://picui.ogmua.cn/s1/2026/04/03/69cf827a3d77e.webp" width="32%" alt="img6">
-
+<div style="display: flex; gap: 6px; overflow-x: auto; padding: 4px 0;">
+  <img src="https://picui.ogmua.cn/s1/2026/04/03/69cf8268ee89b.webp" width="16%" alt="img1">
+  <img src="https://picui.ogmua.cn/s1/2026/04/03/69cf826a2d283.webp" width="16%" alt="img2">
+  <img src="https://picui.ogmua.cn/s1/2026/04/03/69cf826a5e112.webp" width="16%" alt="img3">
+  <img src="https://picui.ogmua.cn/s1/2026/04/03/69cf826aae529.webp" width="16%" alt="img4">
+  <img src="https://picui.ogmua.cn/s1/2026/04/03/69cf826acdc35.webp" width="16%" alt="img5">
+  <img src="https://picui.ogmua.cn/s1/2026/04/03/69cf827a3d77e.webp" width="16%" alt="img6">
 </div>
 
 ## 技术栈
